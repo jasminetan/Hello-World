@@ -28,14 +28,14 @@
                                 <rect key="frame" x="170" y="71" width="35" height="30"/>
                                 <state key="normal" title="Hello"/>
                                 <connections>
-                                    <action selector="helloTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ma6-FK-jiE"/>
+                                    <action selector="helloTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Oo-qU-2zT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1m-DA-Xdg">
                                 <rect key="frame" x="169.5" y="111" width="36" height="30"/>
                                 <state key="normal" title="Clear"/>
                                 <connections>
-                                    <action selector="clearTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rM9-3j-R2u"/>
+                                    <action selector="clearTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jec-16-p2u"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -51,7 +51,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="clearTapped" destination="c1m-DA-Xdg" id="dZZ-b9-3Hl"/>
                         <outlet property="messageLabel" destination="EqR-yz-G0i" id="9AX-Lw-b5L"/>
                     </connections>
                 </viewController>
